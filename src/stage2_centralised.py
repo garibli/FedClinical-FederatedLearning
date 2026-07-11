@@ -126,6 +126,7 @@ def evaluate(model, loader, device):
     macro_f1 = f1_score(all_labels, all_preds, average="macro")
     report = classification_report(
         all_labels, all_preds,
+        labels=list(range(len(LABEL2ID))),
         target_names=[ID2LABEL[i] for i in range(len(LABEL2ID))],
         output_dict=True, zero_division=0,
     )
