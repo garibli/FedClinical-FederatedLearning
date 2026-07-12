@@ -1,5 +1,5 @@
 """
-Stage 3: Baselines for the FedClinical thesis project.
+Stage 3(Updated for metrics method): Baselines for the FedClinical thesis project.
 
 Two cheap baselines that anchor the results table:
 
