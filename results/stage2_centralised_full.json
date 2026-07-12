@@ -1,0 +1,17 @@
+{
+  "condition": "centralised",
+  "run": "full",
+  "model": "roberta-base",
+  "epochs": 2,
+  "train_rows": 48449,
+  "accuracy": 0.8770161290322581,
+  "macro_f1": 0.8783799626797246,
+  "per_class": {
+    "Anxiety": 0.8803245436105477,
+    "Depression": 0.8333333333333334,
+    "Normal": 0.8888888888888888,
+    "Suicidal": 0.9109730848861284
+  },
+  "train_minutes": 30.7,
+  "seed": 42
+}

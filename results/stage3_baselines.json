@@ -1,0 +1,27 @@
+{
+  "frozen": {
+    "condition": "frozen_baseline",
+    "accuracy": 0.25,
+    "macro_f1": 0.1,
+    "per_class": {
+      "Anxiety": 0.4,
+      "Depression": 0.0,
+      "Normal": 0.0,
+      "Suicidal": 0.0
+    }
+  },
+  "classical": {
+    "condition": "classical_tfidf_logreg",
+    "accuracy": 0.6905241935483871,
+    "macro_f1": 0.6921370559813849,
+    "per_class": {
+      "Anxiety": 0.7780320366132724,
+      "Depression": 0.6104553119730185,
+      "Normal": 0.776735459662289,
+      "Suicidal": 0.6033254156769596
+    },
+    "train_minutes": 0.1
+  },
+  "seed": 42,
+  "model": "roberta-base"
+}

@@ -1,0 +1,93 @@
+{
+  "condition": "federated_dp",
+  "run": "full",
+  "target_epsilon": 8.0,
+  "delta": 1e-05,
+  "max_grad_norm": 1.0,
+  "rounds": 6,
+  "local_epochs": 1,
+  "num_clients": 5,
+  "noise_multipliers": [
+    0.443,
+    0.476,
+    0.547,
+    0.533,
+    0.515
+  ],
+  "final_accuracy": 0.4314516129032258,
+  "final_macro_f1": 0.2875317054840551,
+  "per_class": {
+    "Anxiety": 0.0,
+    "Depression": 0.49865229110512127,
+    "Normal": 0.6514745308310992,
+    "Suicidal": 0.0
+  },
+  "round_history": [
+    {
+      "round": 1,
+      "accuracy": 0.25,
+      "macro_f1": 0.1
+    },
+    {
+      "round": 2,
+      "accuracy": 0.25,
+      "macro_f1": 0.1
+    },
+    {
+      "round": 3,
+      "accuracy": 0.25,
+      "macro_f1": 0.1
+    },
+    {
+      "round": 4,
+      "accuracy": 0.25,
+      "macro_f1": 0.1
+    },
+    {
+      "round": 5,
+      "accuracy": 0.2620967741935484,
+      "macro_f1": 0.12403949061436526
+    },
+    {
+      "round": 6,
+      "accuracy": 0.4314516129032258,
+      "macro_f1": 0.2875317054840551
+    }
+  ],
+  "per_client": {
+    "client_0": {
+      "accuracy": 0.47633824670287045,
+      "macro_f1": 0.28836382316165055,
+      "train_rows": 23198,
+      "epsilon_spent": 7.99
+    },
+    "client_1": {
+      "accuracy": 0.6709090909090909,
+      "macro_f1": 0.24325045458138983,
+      "train_rows": 9893,
+      "epsilon_spent": 8.0
+    },
+    "client_2": {
+      "accuracy": 0.47297297297297297,
+      "macro_f1": 0.25633331007048643,
+      "train_rows": 2663,
+      "epsilon_spent": 7.99
+    },
+    "client_3": {
+      "accuracy": 0.782608695652174,
+      "macro_f1": 0.4113357843137255,
+      "train_rows": 3312,
+      "epsilon_spent": 7.99
+    },
+    "client_4": {
+      "accuracy": 0.5267326732673268,
+      "macro_f1": 0.26626626626626626,
+      "train_rows": 4536,
+      "epsilon_spent": 7.99
+    }
+  },
+  "package_mb": 3.55,
+  "total_comm_mb": 213.3,
+  "train_minutes": 233.6,
+  "seed": 42
+}

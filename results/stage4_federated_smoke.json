@@ -1,0 +1,53 @@
+{
+  "condition": "federated_fedavg",
+  "run": "smoke",
+  "rounds": 1,
+  "local_epochs": 1,
+  "num_clients": 5,
+  "final_accuracy": 0.2875,
+  "final_macro_f1": 0.11165048543689321,
+  "per_class": {
+    "Anxiety": 0.0,
+    "Depression": 0.0,
+    "Normal": 0.44660194174757284,
+    "Suicidal": 0.0
+  },
+  "round_history": [
+    {
+      "round": 1,
+      "accuracy": 0.2875,
+      "macro_f1": 0.11165048543689321
+    }
+  ],
+  "per_client": {
+    "client_0": {
+      "accuracy": 0.2,
+      "macro_f1": 0.08333333333333333,
+      "train_rows": 135
+    },
+    "client_1": {
+      "accuracy": 0.6666666666666666,
+      "macro_f1": 0.2,
+      "train_rows": 135
+    },
+    "client_2": {
+      "accuracy": 0.06666666666666667,
+      "macro_f1": 0.03125,
+      "train_rows": 135
+    },
+    "client_3": {
+      "accuracy": 0.7333333333333333,
+      "macro_f1": 0.28205128205128205,
+      "train_rows": 135
+    },
+    "client_4": {
+      "accuracy": 0.4666666666666667,
+      "macro_f1": 0.3181818181818182,
+      "train_rows": 135
+    }
+  },
+  "package_mb": 3.55,
+  "total_comm_mb": 35.5,
+  "train_minutes": 0.2,
+  "seed": 42
+}

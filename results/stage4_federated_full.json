@@ -1,0 +1,78 @@
+{
+  "condition": "federated_fedavg",
+  "run": "full",
+  "rounds": 6,
+  "local_epochs": 1,
+  "num_clients": 5,
+  "final_accuracy": 0.8608870967741935,
+  "final_macro_f1": 0.8609538351591923,
+  "per_class": {
+    "Anxiety": 0.8395522388059702,
+    "Depression": 0.7899159663865546,
+    "Normal": 0.8968421052631579,
+    "Suicidal": 0.9175050301810865
+  },
+  "round_history": [
+    {
+      "round": 1,
+      "accuracy": 0.8034274193548387,
+      "macro_f1": 0.8008528699310133
+    },
+    {
+      "round": 2,
+      "accuracy": 0.8225806451612904,
+      "macro_f1": 0.8209462185802382
+    },
+    {
+      "round": 3,
+      "accuracy": 0.84375,
+      "macro_f1": 0.8437206915132177
+    },
+    {
+      "round": 4,
+      "accuracy": 0.8467741935483871,
+      "macro_f1": 0.8465652793156722
+    },
+    {
+      "round": 5,
+      "accuracy": 0.8578629032258065,
+      "macro_f1": 0.8579639146985424
+    },
+    {
+      "round": 6,
+      "accuracy": 0.8608870967741935,
+      "macro_f1": 0.8609538351591923
+    }
+  ],
+  "per_client": {
+    "client_0": {
+      "accuracy": 0.7866563227307991,
+      "macro_f1": 0.8036337159702879,
+      "train_rows": 23198
+    },
+    "client_1": {
+      "accuracy": 0.9263636363636364,
+      "macro_f1": 0.753304991380393,
+      "train_rows": 9893
+    },
+    "client_2": {
+      "accuracy": 0.7027027027027027,
+      "macro_f1": 0.7077489481065918,
+      "train_rows": 2663
+    },
+    "client_3": {
+      "accuracy": 0.8641304347826086,
+      "macro_f1": 0.6739109364940695,
+      "train_rows": 3312
+    },
+    "client_4": {
+      "accuracy": 0.9168316831683169,
+      "macro_f1": 0.47072716024612093,
+      "train_rows": 4536
+    }
+  },
+  "package_mb": 3.55,
+  "total_comm_mb": 213.3,
+  "train_minutes": 76.8,
+  "seed": 42
+}

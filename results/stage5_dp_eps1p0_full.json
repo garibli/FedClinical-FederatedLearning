@@ -1,0 +1,93 @@
+{
+  "condition": "federated_dp",
+  "run": "full",
+  "target_epsilon": 1.0,
+  "delta": 1e-05,
+  "max_grad_norm": 1.0,
+  "rounds": 6,
+  "local_epochs": 1,
+  "num_clients": 5,
+  "noise_multipliers": [
+    1.006,
+    1.169,
+    1.816,
+    1.66,
+    1.465
+  ],
+  "final_accuracy": 0.5957661290322581,
+  "final_macro_f1": 0.5886136840161333,
+  "per_class": {
+    "Anxiety": 0.45664739884393063,
+    "Depression": 0.5481049562682215,
+    "Normal": 0.7738095238095238,
+    "Suicidal": 0.5758928571428571
+  },
+  "round_history": [
+    {
+      "round": 1,
+      "accuracy": 0.25,
+      "macro_f1": 0.1
+    },
+    {
+      "round": 2,
+      "accuracy": 0.25,
+      "macro_f1": 0.1
+    },
+    {
+      "round": 3,
+      "accuracy": 0.4173387096774194,
+      "macro_f1": 0.2847139829592146
+    },
+    {
+      "round": 4,
+      "accuracy": 0.4717741935483871,
+      "macro_f1": 0.3991540617956459
+    },
+    {
+      "round": 5,
+      "accuracy": 0.5362903225806451,
+      "macro_f1": 0.5032276866946337
+    },
+    {
+      "round": 6,
+      "accuracy": 0.5957661290322581,
+      "macro_f1": 0.5886136840161333
+    }
+  ],
+  "per_client": {
+    "client_0": {
+      "accuracy": 0.6896819239720714,
+      "macro_f1": 0.6605182426776406,
+      "train_rows": 23198,
+      "epsilon_spent": 0.99
+    },
+    "client_1": {
+      "accuracy": 0.7627272727272727,
+      "macro_f1": 0.5494756143189208,
+      "train_rows": 9893,
+      "epsilon_spent": 0.99
+    },
+    "client_2": {
+      "accuracy": 0.6756756756756757,
+      "macro_f1": 0.61572148456247,
+      "train_rows": 2663,
+      "epsilon_spent": 0.99
+    },
+    "client_3": {
+      "accuracy": 0.8097826086956522,
+      "macro_f1": 0.5875586433580262,
+      "train_rows": 3312,
+      "epsilon_spent": 0.99
+    },
+    "client_4": {
+      "accuracy": 0.7346534653465346,
+      "macro_f1": 0.40101754385964916,
+      "train_rows": 4536,
+      "epsilon_spent": 0.99
+    }
+  },
+  "package_mb": 3.55,
+  "total_comm_mb": 213.3,
+  "train_minutes": 74.8,
+  "seed": 42
+}

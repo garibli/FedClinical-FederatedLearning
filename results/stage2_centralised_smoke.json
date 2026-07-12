@@ -1,0 +1,17 @@
+{
+  "condition": "centralised",
+  "run": "smoke",
+  "model": "roberta-base",
+  "epochs": 1,
+  "train_rows": 200,
+  "accuracy": 0.2875,
+  "macro_f1": 0.11165048543689321,
+  "per_class": {
+    "Anxiety": 0.0,
+    "Depression": 0.0,
+    "Normal": 0.44660194174757284,
+    "Suicidal": 0.0
+  },
+  "train_minutes": 1.8,
+  "seed": 42
+}
