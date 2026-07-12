@@ -1,0 +1,133 @@
+{
+  "condition": "local_only_baselines",
+  "run": "smoke",
+  "clients": {
+    "client_0": {
+      "train_rows": 135,
+      "epochs": 1,
+      "local_holdout": {
+        "accuracy": 0.4,
+        "macro_f1": 0.14285714285714285,
+        "per_class": {
+          "Anxiety": 0.0,
+          "Depression": 0.5714285714285714,
+          "Normal": 0.0,
+          "Suicidal": 0.0
+        }
+      },
+      "global_test": {
+        "accuracy": 0.25,
+        "macro_f1": 0.1,
+        "per_class": {
+          "Anxiety": 0.0,
+          "Depression": 0.4,
+          "Normal": 0.0,
+          "Suicidal": 0.0
+        }
+      },
+      "train_minutes": 0.0
+    },
+    "client_1": {
+      "train_rows": 135,
+      "epochs": 1,
+      "local_holdout": {
+        "accuracy": 0.6666666666666666,
+        "macro_f1": 0.2,
+        "per_class": {
+          "Anxiety": 0.0,
+          "Depression": 0.0,
+          "Normal": 0.8,
+          "Suicidal": 0.0
+        }
+      },
+      "global_test": {
+        "accuracy": 0.2875,
+        "macro_f1": 0.11165048543689321,
+        "per_class": {
+          "Anxiety": 0.0,
+          "Depression": 0.0,
+          "Normal": 0.44660194174757284,
+          "Suicidal": 0.0
+        }
+      },
+      "train_minutes": 0.0
+    },
+    "client_2": {
+      "train_rows": 135,
+      "epochs": 1,
+      "local_holdout": {
+        "accuracy": 0.6,
+        "macro_f1": 0.1875,
+        "per_class": {
+          "Anxiety": 0.0,
+          "Depression": 0.75,
+          "Normal": 0.0,
+          "Suicidal": 0.0
+        }
+      },
+      "global_test": {
+        "accuracy": 0.25,
+        "macro_f1": 0.1,
+        "per_class": {
+          "Anxiety": 0.0,
+          "Depression": 0.4,
+          "Normal": 0.0,
+          "Suicidal": 0.0
+        }
+      },
+      "train_minutes": 0.0
+    },
+    "client_3": {
+      "train_rows": 135,
+      "epochs": 1,
+      "local_holdout": {
+        "accuracy": 0.7333333333333333,
+        "macro_f1": 0.28205128205128205,
+        "per_class": {
+          "Anxiety": 0.0,
+          "Depression": 0.0,
+          "Normal": 0.8461538461538461,
+          "Suicidal": 0.0
+        }
+      },
+      "global_test": {
+        "accuracy": 0.2875,
+        "macro_f1": 0.11165048543689321,
+        "per_class": {
+          "Anxiety": 0.0,
+          "Depression": 0.0,
+          "Normal": 0.44660194174757284,
+          "Suicidal": 0.0
+        }
+      },
+      "train_minutes": 0.0
+    },
+    "client_4": {
+      "train_rows": 135,
+      "epochs": 1,
+      "local_holdout": {
+        "accuracy": 0.6,
+        "macro_f1": 0.55,
+        "per_class": {
+          "Anxiety": 0.0,
+          "Depression": 0.0,
+          "Normal": 0.7,
+          "Suicidal": 0.4
+        }
+      },
+      "global_test": {
+        "accuracy": 0.375,
+        "macro_f1": 0.22734116230051188,
+        "per_class": {
+          "Anxiety": 0.0,
+          "Depression": 0.0,
+          "Normal": 0.5679012345679012,
+          "Suicidal": 0.34146341463414637
+        }
+      },
+      "train_minutes": 0.0
+    }
+  },
+  "seed": 42,
+  "total_minutes": 0.3
+}
