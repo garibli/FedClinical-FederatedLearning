@@ -1,0 +1,346 @@
+{
+  "per_client_table": [
+    {
+      "condition": "federated",
+      "client": "client_0",
+      "macro_f1_all": 0.8036,
+      "macro_f1_present_only": 0.8036,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "federated",
+      "client": "client_1",
+      "macro_f1_all": 0.7533,
+      "macro_f1_present_only": 0.7533,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "federated",
+      "client": "client_2",
+      "macro_f1_all": 0.7077,
+      "macro_f1_present_only": 0.7077,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "federated",
+      "client": "client_3",
+      "macro_f1_all": 0.6739,
+      "macro_f1_present_only": 0.6739,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "federated",
+      "client": "client_4",
+      "macro_f1_all": 0.4707,
+      "macro_f1_present_only": 0.9415,
+      "present_classes": [
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps8",
+      "client": "client_0",
+      "macro_f1_all": 0.7249,
+      "macro_f1_present_only": 0.7249,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps8",
+      "client": "client_1",
+      "macro_f1_all": 0.638,
+      "macro_f1_present_only": 0.638,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps8",
+      "client": "client_2",
+      "macro_f1_all": 0.6675,
+      "macro_f1_present_only": 0.6675,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps8",
+      "client": "client_3",
+      "macro_f1_all": 0.6001,
+      "macro_f1_present_only": 0.6001,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps8",
+      "client": "client_4",
+      "macro_f1_all": 0.4342,
+      "macro_f1_present_only": 0.8684,
+      "present_classes": [
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps3",
+      "client": "client_0",
+      "macro_f1_all": 0.7074,
+      "macro_f1_present_only": 0.7074,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps3",
+      "client": "client_1",
+      "macro_f1_all": 0.635,
+      "macro_f1_present_only": 0.635,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps3",
+      "client": "client_2",
+      "macro_f1_all": 0.6514,
+      "macro_f1_present_only": 0.6514,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps3",
+      "client": "client_3",
+      "macro_f1_all": 0.593,
+      "macro_f1_present_only": 0.593,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps3",
+      "client": "client_4",
+      "macro_f1_all": 0.4304,
+      "macro_f1_present_only": 0.8607,
+      "present_classes": [
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps1",
+      "client": "client_0",
+      "macro_f1_all": 0.6605,
+      "macro_f1_present_only": 0.6605,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps1",
+      "client": "client_1",
+      "macro_f1_all": 0.5495,
+      "macro_f1_present_only": 0.5495,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps1",
+      "client": "client_2",
+      "macro_f1_all": 0.6157,
+      "macro_f1_present_only": 0.6157,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps1",
+      "client": "client_3",
+      "macro_f1_all": 0.5876,
+      "macro_f1_present_only": 0.5876,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "dp_eps1",
+      "client": "client_4",
+      "macro_f1_all": 0.401,
+      "macro_f1_present_only": 0.802,
+      "present_classes": [
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "local_only",
+      "client": "client_0",
+      "macro_f1_all": 0.8312,
+      "macro_f1_present_only": 0.8312,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "local_only",
+      "client": "client_1",
+      "macro_f1_all": 0.7263,
+      "macro_f1_present_only": 0.7263,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "local_only",
+      "client": "client_2",
+      "macro_f1_all": 0.7282,
+      "macro_f1_present_only": 0.7282,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "local_only",
+      "client": "client_3",
+      "macro_f1_all": 0.6733,
+      "macro_f1_present_only": 0.6733,
+      "present_classes": [
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Suicidal"
+      ]
+    },
+    {
+      "condition": "local_only",
+      "client": "client_4",
+      "macro_f1_all": 0.4682,
+      "macro_f1_present_only": 0.9365,
+      "present_classes": [
+        "Normal",
+        "Suicidal"
+      ]
+    }
+  ],
+  "gain_from_joining": [
+    {
+      "client": "client_0",
+      "local_only": 0.8312,
+      "federated": 0.8036,
+      "gain_fed": -0.0276,
+      "dp_eps8": 0.7249,
+      "gain_dp8": -0.1063,
+      "local_present_only": 0.8312,
+      "fed_present_only": 0.8036
+    },
+    {
+      "client": "client_1",
+      "local_only": 0.7263,
+      "federated": 0.7533,
+      "gain_fed": 0.027,
+      "dp_eps8": 0.638,
+      "gain_dp8": -0.0883,
+      "local_present_only": 0.7263,
+      "fed_present_only": 0.7533
+    },
+    {
+      "client": "client_2",
+      "local_only": 0.7282,
+      "federated": 0.7077,
+      "gain_fed": -0.0205,
+      "dp_eps8": 0.6675,
+      "gain_dp8": -0.0607,
+      "local_present_only": 0.7282,
+      "fed_present_only": 0.7077
+    },
+    {
+      "client": "client_3",
+      "local_only": 0.6733,
+      "federated": 0.6739,
+      "gain_fed": 0.0006,
+      "dp_eps8": 0.6001,
+      "gain_dp8": -0.0732,
+      "local_present_only": 0.6733,
+      "fed_present_only": 0.6739
+    },
+    {
+      "client": "client_4",
+      "local_only": 0.4682,
+      "federated": 0.4707,
+      "gain_fed": 0.0025,
+      "dp_eps8": 0.4342,
+      "gain_dp8": -0.034,
+      "local_present_only": 0.9365,
+      "fed_present_only": 0.9415
+    }
+  ]
+}

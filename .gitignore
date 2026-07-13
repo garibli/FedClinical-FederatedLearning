@@ -2,5 +2,8 @@ venv/
 data/
 results/*
 !results/*.json
+!results/*.csv
+!results/figures/
+!results/figures/*.png
 __pycache__/
 *.pyc
